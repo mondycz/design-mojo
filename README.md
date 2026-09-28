@@ -51,7 +51,7 @@ npx skills add mondycz/design-mojo --skill figma-tailwind-review
 
 **Manual: Claude app (claude.ai)**
 
-1. Download `figma-tailwind-review.skill` from the [latest release](https://github.com/mondycz/design-mojo/releases/latest).
+1. Download [`figma-tailwind-review.skill`](https://github.com/mondycz/design-mojo/raw/main/downloads/figma-tailwind-review.skill).
 2. In Claude, open **Settings → Capabilities → Skills**.
 3. Upload the file.
 
