@@ -1,6 +1,6 @@
 # Design Mojo
 
-**Just AI skills for designers.**
+**AI skills for designers.**
 
 A skill is a short set of instructions your AI assistant (Claude, Codex, Cursor…) follows for one kind of job. Install a skill once, and the AI does that job the right way every time.
 
