@@ -1,5 +1,5 @@
 ---
-name: figma-component-descriptions
+name: figma-components-tokens-description
 description: Writes and improves descriptions in a Figma design-system library — component sets, variants, private components and, optionally, color variables — through a gated, owner-approved workflow (inventory, scope approval, wording review, write, completeness sweep). Use whenever the user wants to add, audit or fix descriptions in a Figma library, or prepare a library for AI and the Figma agent — e.g. "add descriptions to my components", "document my design system", "prepare my design system for AI agents", "dodaj opisy komponentów" — even without the word "description" ("make my library understandable for the Figma agent"). Not for creating variants (use pre-variant-check).
 ---
 

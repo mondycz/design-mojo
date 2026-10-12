@@ -7,7 +7,7 @@ A skill is a short set of instructions your AI assistant (Claude, Codex, Cursor�
 | Skill | What it does |
 |---|---|
 | [figma-tailwind-review](#figma-tailwind-review) | Checks that the code matches your Figma file: variables, modes, text styles, components. |
-| [figma-component-descriptions](#figma-component-descriptions) | Writes clear descriptions for your Figma components and colors, so people and AI pick the right one. |
+| [figma-components-tokens-description](#figma-components-tokens-description) | Goes through your Figma files and writes clear descriptions for your components and color tokens, so other AI agents build with the right ones. |
 
 More skills coming.
 
@@ -70,7 +70,9 @@ Tested on a real Next.js and Tailwind v4 project with its Figma file: it caught 
 
 ---
 
-## figma-component-descriptions
+## figma-components-tokens-description
+
+With this skill, the AI goes through all your Figma files: the component library, your foundations (colors, icons) and your app screens. Based on what it finds there, it writes proper descriptions for your components and color tokens: what each one is for, which options matter, and when *not* to use it. Other AI agents read these descriptions, so they pick the right component and color when they implement your designs. You approve the plan and the wording before anything is written.
 
 ### Why
 
@@ -100,18 +102,18 @@ Component descriptions are what designers, Dev Mode and AI tools like the Figma 
 In your project folder, run:
 
 ```
-npx skills add mondycz/design-mojo --skill figma-component-descriptions
+npx skills add mondycz/design-mojo --skill figma-components-tokens-description
 ```
 
 **Manual: Claude Code**
 
-1. Download [`SKILL.md`](skills/figma-component-descriptions/SKILL.md).
-2. Create the folder `~/.claude/skills/figma-component-descriptions/` (every project) or `.claude/skills/figma-component-descriptions/` inside one project.
+1. Download [`SKILL.md`](skills/figma-components-tokens-description/SKILL.md).
+2. Create the folder `~/.claude/skills/figma-components-tokens-description/` (every project) or `.claude/skills/figma-components-tokens-description/` inside one project.
 3. Put `SKILL.md` in that folder and restart Claude Code.
 
 **Manual: Claude app (claude.ai)**
 
-1. Download [`figma-component-descriptions.skill`](https://github.com/mondycz/design-mojo/raw/main/downloads/figma-component-descriptions.skill).
+1. Download [`figma-components-tokens-description.skill`](https://github.com/mondycz/design-mojo/raw/main/downloads/figma-components-tokens-description.skill).
 2. In Claude, open **Settings → Capabilities → Skills**.
 3. Upload the file.
 
